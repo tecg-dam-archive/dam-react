@@ -1,4 +1,4 @@
-#<img src="./img/reactjs.svg" alt="ReactJS, une introduction à la création d'applications mobiles" style="max-width: 100%; height:auto" />
+<img src="./img/reactjs.svg" alt="ReactJS, une introduction à la création d'applications mobiles" style="max-width: 100%; height:auto" />
 
 > ReactJS Lesson given at [HEPL](http://www.provincedeliege.be/hauteecole)
 
