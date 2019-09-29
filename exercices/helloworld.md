@@ -53,14 +53,14 @@ C'est bien beau tout ça mais ça ne fonctionne pas ! C'est parfaitement normal.
 * Importer les libraires nécessaires
 
 ```javascript
-	import React from 'react';
-	import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 ```
 	
 * Afficher (render) le composant
 
 ```javascript
-	ReactDOM.render(myApp, document.getElementById('root'));
+ReactDOM.render(myApp, document.getElementById('root'));
 ```
 
 La librairie **React** décrit comment un composant doit se comporter, comment les assembler et les faire travailler ensemble.
@@ -70,23 +70,23 @@ La librairie **React** décrit comment un composant doit se comporter, comment l
 L'élément que nous avons créé n'est pas réellement un composant. Nous allons donc transformer cette `const` en une fonction.
 
 ```javascript
-	const myApp = () =>{
-		return <h1>Hello World !</h1>;
-	}
+const myApp = () =>{
+	return <h1>Hello World !</h1>;
+}
 ```
 
 Une autre possibilité et de créer un Class-based component.
 
 ```javascript
-	class MonPremierComposant extends React.Component {
-	  render() {
-	    return (
-	      <h1>
-		Hello world
-	      </h1>
-	    );
-	  }
-	};
+class MonPremierComposant extends React.Component {
+  render() {
+    return (
+      <h1>
+	Hello world
+      </h1>
+    );
+  }
+};
 ```
 
 ## Déstructurer l'`import` et refactorisation du code
